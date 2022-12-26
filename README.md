@@ -1,4 +1,4 @@
-#### [6. Bank App ](https://jmnahan.github.io/batch22-fe-activities/bank-app/)
+## [Bank App ](https://jmnahan.github.io/batch22-fe-activities/bank-app/)
 ##### Sample Accounts: 
 1. First Account
     - email: juan@gmail.com
