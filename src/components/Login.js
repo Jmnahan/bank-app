@@ -74,8 +74,8 @@ export default function Login(props) {
           onChange={(event) => setPassword(event.target.value)}/>
           <p className="text-red-400">{error.password}</p>
 
-      <button className="text-2xl mt-8 py-3.5 bg-slate-400 rounded-lg
-       hover:bg-slate-500 hover:text-slate-200 ease-in duration-200" 
+      <button className="text-2xl mt-8 py-3.5 bg-blue-400 rounded-lg
+       hover:bg-blue-500 hover:text-slate-200 ease-in duration-200" 
        type="submit">Login</button>
       </form>
       <p className="pt-5">Create a new account? 

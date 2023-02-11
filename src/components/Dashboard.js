@@ -286,7 +286,7 @@ const deleteExpens = (id, cost) => {
                   clickModal={clickModal}
                   setClickModal={setClickModal}
                 />
-                <button className="text-xl border-slate-700 hover:bg-slate-500 hover:text-slate-200 
+                <button className="text-xl border-slate-700 hover:bg-blue-500 hover:text-slate-200 
                 rounded-full px-3 mr-8 ease-in duration-200" onClick={handleClick}>Log-out</button>
             </div>
           </li>
@@ -309,17 +309,17 @@ const deleteExpens = (id, cost) => {
                 </div>
               </div>
             <div className="grid grid-cols-2 gap-y-4 w-2/5 ml-4 my-12">
-              <button className="mr-4 mt-5 shadow-xl border-2 bg-slate-400 border-slate-500	rounded-md text-2xl 
-              hover:bg-slate-500 hover:text-slate-200 hover:border-none 
+              <button className="mr-4 mt-5 shadow-xl border-2 bg-blue-400 border-slate-500	rounded-md text-2xl 
+              hover:bg-blue-500 hover:text-slate-200 hover:border-none 
               scale-80 hover:scale-90 ease-in duration-200" onClick={() => setUserActions("Deposit")}>Deposit</button>
-              <button className="mr-4 mt-5 shadow-xl border-2 bg-slate-400 border-slate-500	rounded-md text-2xl 
-              hover:bg-slate-500 hover:text-slate-200 hover:border-none 
+              <button className="mr-4 mt-5 shadow-xl border-2 bg-blue-400 border-slate-500	rounded-md text-2xl 
+              hover:bg-blue-500 hover:text-slate-200 hover:border-none 
               scale-70 hover:scale-90 ease-in duration-200" onClick={() => setUserActions("Transfer")}>Transfer</button>
-              <button className="mr-4 mt-5 shadow-xl border-2 bg-slate-400 border-slate-500	rounded-md text-2xl 
-              hover:bg-slate-500 hover:text-slate-200 hover:border-none 
+              <button className="mr-4 mt-5 shadow-xl border-2 bg-blue-400 border-slate-500	rounded-md text-2xl 
+              hover:bg-blue-500 hover:text-slate-200 hover:border-none 
               scale-70 hover:scale-90 ease-in duration-200" onClick={() => setUserActions("Withdraw")}>Withdraw</button>
-              <button className="mr-4 mt-5 shadow-xl border-2 bg-slate-400 border-slate-500	rounded-md text-2xl 
-              hover:bg-slate-500 hover:text-slate-200 hover:border-none 
+              <button className="mr-4 mt-5 shadow-xl border-2 bg-blue-400 border-slate-500	rounded-md text-2xl 
+              hover:bg-blue-500 hover:text-slate-200 hover:border-none 
               scale-70 hover:scale-90 ease-in duration-200" onClick={() => setUserActions("Transactions")}>Transactions</button>
             </div>
           </div>
@@ -327,7 +327,7 @@ const deleteExpens = (id, cost) => {
             <div className="flex items-center p-2">
               <h2 className="text-3xl py-2">Expenses</h2>
               <button onClick={() => setClickExpenses(true)}>
-                <img className="h-8 w-8 ml-4 bg-slate-600 rounded-full p-1 hover:bg-slate-200" alt="plus-sign" src={PlusSign}></img>
+                <img className="h-8 w-8 ml-4 bg-blue-400 rounded-full p-1 hover:bg-blue-200" alt="plus-sign" src={PlusSign}></img>
               </button>
             </div>
             <table>
